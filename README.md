@@ -94,6 +94,7 @@ After completion, Void automatically generates a **wipe certificate**.
 ```bash
 
 sudo dd if=Void.iso of=/dev/sdX bs=4M status=progress conv=fsync
+```
 
  Replace /dev/sdX with your actual USB device path (not a partition like /dev/sdb1).
 
@@ -113,23 +114,23 @@ Download the void.deb package from the official website.
 
 Install it using:
 
-
+```
 
 sudo dpkg -i void.deb
 
 sudo apt-get install -f
-
+```
 
 
 
 
 Launch Void with:
 
-
+```
 
 void
 
-
+```
 
 
 
@@ -192,4 +193,3 @@ Ensure the phone is properly recognized by ADB.
 
 
 Some older HDDs may not support ATA Secure Erase commands.
-```
